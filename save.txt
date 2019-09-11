@@ -1,0 +1,160 @@
+</div>
+    <p>Process Map:
+    
+    1) Extracting Past Support Tickets from AWS, ServiceNow, and Jira Platoform
+        Technologies Used: PySnow API , Python JIRA API, boto3
+    
+    2) Storing Tickets 
+        Technologies Used: AWS DynamoDB
+    
+    3) Detecting a new ticket
+        Technologies Used: 
+            Detecting new New Ticket:
+                AWS CloudWatch Alarms, API time-based query for JIRA and PySnow, AWS SNS
+    
+    4) Processing New Ticket and comparing it to old ones
+        
+        Technologies Used:
+            Preprocessing/Text Clean Up
+                Python Libraries: RegEx, NLTK
+            Machine Learning
+                AWS Sagemaker: Word2Vec Blazing Text algorithm, Latent Dirachlet Algorithm (LDA)
+                AWS Comprehend: Comprehend detect keyphrases, detect entities, topic modeling
+    
+    5) Sending Email:
+    
+        Technolgoies Used:
+            AWS SES 
+
+    6) Creating Website for User Search:
+    
+        Technolgoies Used:
+            WebSite Design/Storage: S3, HTML, CSS, Jinja 
+        Safe Access:
+            CloudFront, Gluu
+        
+    
+Potential Improvements: Image Detection, Language Compatability (tickets from other countries)
+    
+Highlights <br>
+    1) Mobile App Demo
+    2) Team Building Activities
+    3) DISC Workshop
+    4) Everyday SuperHero Awards
+    5) AWS Certification
+    </p>
+    <img class="AccomplishementsIMG" src="/rh/mobileAppDemo_Winner.PNG">
+    <br>
+    <img class="everydayHeroIMG" src="/rh/everydayHero_Collaboration.PNG">
+    <img class="everydayHeroIMG" src="/rh/everydayHero_Innovation.PNG">
+    <img class="everydayHeroIMG" src="/rh/everydayhero_Innovation2.PNG">
+    <img class="everydayHeroIMG" src="/rh/everydayHero_Innovation3.PNG">  
+    
+
+PowerPoints
+</div>
+
+
+<img src = "/rh/Day%20One%20Group%20Shot.jpg" style = "padding: 10px;margin-top:20px; float:right; width:200px; display:inline-block;">
+
+
+.bar{
+  background-color: white;
+  padding: 2px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    width: 250px;
+    
+}
+.bar::before{
+  content:  attr(data-skill);
+  background-color: #f3b0ff;
+  display: inline-block;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+    height: 27px;
+}
+.bar.learning::before{
+    background-color: yellow;
+    width: calc(20% - 10px);
+}
+.bar.basic::before{
+    background-color: #F0DDC2;
+    width: calc(60% - 10px);
+}
+.bar.intermediate::before{
+    background-color: #a6e9d7;
+    width: calc(80% - 10px);
+}
+.bar.advanced::before{
+    background-color: #443333;
+    width: calc(90% - 10px);
+}
+.bar.expert::before{
+    background-color: #9F7776;
+    width: calc(95% - 10px);
+}
+
+
+    <div id = "processMap">
+        <b>_ p r o j e c t _ p r o c e s s _ m a p _</b>
+        <br>
+        <div id = "processMapBox" >1) Extracting Past Support Tickets from AWS, ServiceNow, and Jira Platoform.<br><br>
+        Technologies Used: PySnow API , Python JIRA API, boto3<br><br>
+        <img class = "zoom" src = "/rh/ML/jira.png" style = "width: 50px;padding:10px;">
+        <img class = "zoom" src = "/rh/ML/aws.png" style = "width: 50px;padding:10px;">
+        <img class = "zoom" src = "/rh/ML/sNow.PNG" style = "width: 50px;padding:10px;">
+            </div>
+        
+        <div id = processMapBox >  2) Storing Tickets (long-term) and accounting for db size and archiving mechanism for ticket-life. <br><br> Technologies Used: AWS DynamoDB
+            <br>
+            <img class = "zoom" src ="/rh/ML/full_table.png" style = "width:50px;padding:5px;">
+        
+        
+        </div>
+        
+        <div id = processMapBox>3) Detecting and storing a new ticket <br> Technologies Used: Detecting new New Ticket:
+                AWS CloudWatch Alarms, API time-based query for JIRA and PySnow, AWS SNS
+        <img class= "zoom" src = "/rh/ML/anEntry.png"style = "width:50px;padding:5px;">
+        </div>
+        
+        <div id = processMapBox>4) Processing New Ticket and comparing it to old ones <br> Technologies Used:<br> Preprocessing/Text Clean Up Python Libraries: RegEx, NLTK Machine Learning AWS Sagemaker: Word2Vec Blazing Text algorithm, Latent Dirachlet Algorithm (LDA) <br> AWS Comprehend: Comprehend detect keyphrases, detect entities, topic modeling
+            <br>
+            <br>
+            <div style = "display:block;width:190px;white-space: normal;"><img class = "zoom" src = "/rh/ML/word2vec_TSNE_zoom.png" style = "width:50px;padding:5px;"></div>
+            
+            <div style = "display: inline-block;width:210px;white-space: normal;">
+                <img class = "zoom" src = "/rh/ML/LDA_call.png" style ="width:50px;padding:5px;">
+                <img class = "zoom" src = "/rh/ML/LDA_Output.png" style = "width:50px;padding:5px;display:block;">
+            </div>
+            
+            
+            <img class = "zoom" src = "/rh/ML/comprehend_topic-terms.png" style = "width:50px;padding:5px;">
+            <img class = "zoom" src = "/rh/ML/comprehed_doc-topics.png" style = "width:50px;padding:5px;">
+           
+        
+        
+        
+        </div>
+        
+        <div id = processMapBox> 5) Sending Email: <br> Technolgoies Used: AWS SES 
+            <br>
+            <br>
+            <img class = "zoom" src="/rh/ML/output_email.PNG" style = "width:50px;padding:5px;">
+            
+        </div>
+        
+        <div id = processMapBox>6) Creating Website for User Search: <br>
+        Technolgoies Used: S3, HTML, CSS, Jinja, CloudFront, Gluu
+            <br>
+            <img class = "zoom" src="/rh/ML/website.png" style = "width:50px;padding:5px;">
+        </div>
+        
+    </div>
+

@@ -1,0 +1,183 @@
+html{
+    height: 100%;
+}
+
+.test{
+    width: 3500px;
+    overflow-y: scroll;
+    display: inline-block;
+    overflow-y: scroll;
+    white-space: normal;
+
+}
+
+#projectsContainer {
+    width: 950px;
+    height: 460px;
+    display: inline-block;
+    white-space: normal;
+    font-family: "ostrich";
+    font-size: 20px;
+}
+.box{
+    display: inline-block;
+    float:left;
+    height:130px;
+    width: 150px; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: green;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+}
+
+
+
+h1{
+    text-align: center;
+    color:yellow;
+    font-size: 20px;
+    font-family: "leddis";
+    font-weight: lighter;
+    margin-left: 5x;
+    margin: 0;
+    padding: 0;
+    white-space: normal;
+    color:black;
+}
+h5{
+    text-align: center;
+    color: black;
+    font-family: "Jura";
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 10px;
+    margin: 2px;
+    padding: 0;
+    
+}
+p{
+    color:black;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: monospace;
+    font-stretch: expanded;
+    margin-top: 2px;
+    text-align: center; 
+    white-space: normal;
+    text-overflow: ellipsis;
+    
+}
+
+.C{
+   background:antiquewhite;
+}
+
+
+.CPlus{
+    background:antiquewhite;
+}
+
+
+.HTML{
+   background:antiquewhite;
+}
+
+.DESIGN{
+   background:antiquewhite;
+}
+
+.Assembly{
+    background:antiquewhite;
+}
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.projects{
+    height: 185px;
+    width:670px;
+    margin-top:7px;
+   
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    text-align: left;
+    color: blue;
+    display: inline-block;
+ 
+    font-family: "leddis";
+    font-size: 20px; 
+}
+
+.skills{
+    float:left;
+    text-align: left;
+    height: 500px;
+    width:280px;
+    margin-top: 15px;
+    font-family: "ostrich";
+    margin-left: 20px;
+    font-weight: 400;
+    
+    
+}
+
+.internship1{
+    height: 120px;
+    width:670px;
+    margin-left: 20px;
+    margin-top: 18px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: left;
+    color: pink;
+
+    display: inline-block;
+    font-family: "leddis";
+    font-size: 20px;
+
+
+}
+
+
+
+#viewresume{
+    height: 80px;
+    width: 300px;
+    background: #9F7776;
+    margin-top: 27px;
+     
+    
+    font-family: "ostrich";
+    color: white;
+    font-size: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+
+

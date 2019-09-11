@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+.sticky {
+  background-image: linear-gradient(to right top, #110f14, #1f1d23, #2e2a33, #3d3844, #4d4755);
+    margin: 0px;
+    text-align: center;
+    z-index: 1000;
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    
+}
+.options{
+    height: 10px;
+    white-space: nowrap;
+    font-size: 37px;  
+    font-family: ostrich;
+    padding: 50px; 
+}
+.options:hover{
+    transform: scale(.8);
+   
+}    
+a:active{
+    text-decoration: underline;  
+    }
+
+    

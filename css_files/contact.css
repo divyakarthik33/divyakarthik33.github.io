@@ -1,0 +1,72 @@
+html{
+    height: 100%;
+}
+
+a:checked{
+    text-decoration: none;
+}
+
+
+.address {
+    float:right;
+    width:500px;
+    display: inline-block;
+    white-space: nowrap;  
+    margin-right: 100px;
+    margin-top: 135px;
+    font-family: "ostrich";
+}
+
+.FORM{
+    margin-left: 150px;
+    display: inline-block;
+    float: left;
+    width: 300px;
+    white-space: nowrap;
+    margin-top: 30px;
+     font-family: "ostrich";
+
+}
+
+.links{
+    font-family: ostrich;
+    font-weight: 600;
+    font-size: 30px;
+    color: lightcoral;
+}
+
+.linksa{
+    font-family: jura;
+    font-size:20px;
+    font-weight: 400;
+}
+
+
+
+#email {
+    display: inline;
+    height: 20px;
+    width: 400px;
+    background-color: antiquewhite;
+
+}
+
+#message {
+    width:400px;
+    height: 150px;
+    background-color:  antiquewhite;  
+}
+
+#send {
+    width: 405px;
+    height: 25px;
+    font-family: "ostrich";
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+   
+ 
+}
+
+
+

@@ -1,0 +1,312 @@
+html{
+    height: 100%;
+}
+
+body{
+  background: white;
+    overflow-x: hidden;
+}
+.tab {
+
+    white-space: nowrap;
+    background:transparent;
+    display:inline-block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    display: inline-block;
+    white-space: nowrap;
+    background: transparent;
+    font-family: "ostrich";
+    color: white;
+    font-size: 33px;
+    border-bottom: 40px solid pink;
+
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	height: 0;
+	width: 300px;
+   
+    cursor: pointer;
+    transition: 0.3s; 
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    border-bottom: 43px solid darkgray;
+    border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+    outline-color: transparent;
+
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background: transparent;
+    border-bottom: 43px solid gray;
+    border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+    outline-color: transparent;
+   
+}
+
+.tab button:valid{
+    outline-color: transparent;
+}
+
+/* Style the tab content */
+.tabcontent {
+    position:relative;
+    min-width: 100%;
+    max-width: 100%;
+    
+    overflow: visible;
+    text-align: center;
+    
+}
+
+.tab span{ 
+  position: absolute;
+  top: -30px;
+  left: 25%;
+  color: #fff;
+}
+#skills{
+    width: 23%;
+    display: inline-block;
+    float: left;
+   
+    margin-right: 35px;
+}
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:5px;
+	width:200px;;
+	background:#E0E0E0;
+	height:20px;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+#barCaptions{
+    text-align: left;
+    font-family: "ostrich";
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+    margin-left: 10px;
+    
+}
+.skillbar-bar {
+	height:20px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+
+
+
+#RHInternship{
+    text-align: center;
+    position:relative;
+}
+.textBoxProject_RH{
+    
+    text-align: center;
+    width: 100%;
+    height: 80%;
+    object-fit: fill;
+    display: inline-block;
+    float:left;    
+}
+
+
+.experienceHome{
+    padding: 0px;
+    width:70%;
+    
+    display: inline-block;
+    
+}
+#extras {
+    margin-top: 30px;
+    float:left;
+    margin-right: 25px;
+    width: 40%;
+    
+
+    display: inline-block;
+    
+}
+
+#captionchunk { 
+    
+    text-align: right; 
+    float:left;
+    display:block;
+    font-family: monospace; 
+    background-image: linear-gradient(to right top, #110f14, #1f1d23, #2e2a33, #3d3844, #4d4755); 
+    padding: 5px; 
+    color:white;
+    font-size:14px;
+}
+
+
+
+#awards {
+    display: inline-block;
+    height: 90%px;
+    width: 30%;
+    margin:5%;
+    float:left;
+    text-align: left;
+    font-size: 24px;
+    font-family: "ostrich";
+    color:black; 
+    
+    
+}
+
+#ppt{
+    text-align: left;
+    font-size: 24px;
+    font-family: "ostrich";
+    color:black; 
+    width:50%;
+    height:60%;
+    float:left;
+    margin: 5%;
+}
+/* MDOut*/
+.wireframe {
+    width:300px;
+    display: inline-block;
+    margin: 20px;
+    margin: 0px;
+    text-align: center;
+    font-family: "ostrich";
+    
+}
+.wireframe:hover {
+    transform: scale(1.2);
+    z-index: 10;
+}
+
+.flyers {
+    width:800px;
+    
+    margin: 20px;
+    margin: 0px;
+    text-align: center;
+    font-family: "ostrich";  
+}
+
+.flyers:hover {
+    transform: scale(1.2);
+    z-index: 10;
+}
+
+/*fonts*/
+.writing    {
+    font-family: "juraL";
+    color: black;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+    width: 50px;
+    font-size: 12px;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#captionchunk{
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*pictures*/
+.everydayHeroIMG{
+    width: 100%;
+}
+.everydayHeroIMG:hover{
+    transform: scale(1.2);
+    z-index: 10;
+}
+.zoom{
+    float:left;
+    display:inline-block;
+}
+.zoom:hover {
+    transform: scale(1.5);
+    z-index: 10;
+}
