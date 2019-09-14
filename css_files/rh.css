@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
 html{
     height: 100%;
 }
@@ -12,25 +14,27 @@ body{
     background:transparent;
     display:inline-block;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 0px;
+    
+   
     
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
+   
     display: inline-block;
     white-space: nowrap;
     background: transparent;
-    font-family: "ostrich";
-    color: white;
-    font-size: 33px;
-    border-bottom: 40px solid pink;
+    font-family:  'Open Sans Condensed', sans-serif;
+    color: black;
+    font-size: 30px;
+   
+    border-bottom: 10px solid gray;
 
-	border-left: 40px solid transparent;
-	border-right: 40px solid transparent;
-	height: 0;
-	width: 300px;
+
+	width: 400px;
    
     cursor: pointer;
     transition: 0.3s; 
@@ -38,9 +42,9 @@ body{
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    border-bottom: 43px solid darkgray;
-    border-left: 40px solid transparent;
-	border-right: 40px solid transparent;
+    border-bottom: 20px solid darkgray;
+    border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
     outline-color: transparent;
 
 }
@@ -48,9 +52,9 @@ body{
 /* Create an active/current tablink class */
 .tab button.active {
     background: transparent;
-    border-bottom: 43px solid gray;
-    border-left: 40px solid transparent;
-	border-right: 40px solid transparent;
+    border-bottom: 20px solid pink;
+    border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
     outline-color: transparent;
    
 }
@@ -106,8 +110,9 @@ body{
 }
 #barCaptions{
     text-align: left;
-    font-family: "ostrich";
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 16px;
+    color: #4d0019;
     font-weight: bold;
     margin: 0px;
     margin-left: 10px;
@@ -121,15 +126,13 @@ body{
 	-moz-border-radius:15px;
 	-webkit-border-radius:15px;
 }
-
-
-
 #RHInternship{
     text-align: center;
     position:relative;
 }
 .textBoxProject_RH{
-    
+    background:  url(/rh/IMG_9279.png) no-repeat scroll center top transparent;
+    background-size: cover;
     text-align: center;
     width: 100%;
     height: 80%;
@@ -137,8 +140,6 @@ body{
     display: inline-block;
     float:left;    
 }
-
-
 .experienceHome{
     padding: 0px;
     width:70%;
@@ -156,21 +157,18 @@ body{
     display: inline-block;
     
 }
-
 #captionchunk { 
     
     text-align: right; 
     float:left;
     display:block;
     font-family: monospace; 
+    overflow: hidden;
     background-image: linear-gradient(to right top, #110f14, #1f1d23, #2e2a33, #3d3844, #4d4755); 
     padding: 5px; 
     color:white;
-    font-size:14px;
+    font-size: 14px;
 }
-
-
-
 #awards {
     display: inline-block;
     height: 90%px;
@@ -178,84 +176,51 @@ body{
     margin:5%;
     float:left;
     text-align: left;
-    font-size: 24px;
-    font-family: "ostrich";
+    font-size: 22px;
+    font-family: "Open Sans Condensed", sans-serif;
     color:black; 
     
     
 }
-
 #ppt{
     text-align: left;
-    font-size: 24px;
-    font-family: "ostrich";
+    font-size: 22px;
+    font-family: "Open Sans Condensed" sans-serif;
     color:black; 
     width:50%;
     height:60%;
     float:left;
     margin: 5%;
 }
-/* MDOut*/
 .wireframe {
-    width:300px;
+    width:45%;
     display: inline-block;
     margin: 20px;
     margin: 0px;
     text-align: center;
-    font-family: "ostrich";
+    font-family: "Open Sans Condensed" sans-serif;
     
 }
 .wireframe:hover {
     transform: scale(1.2);
     z-index: 10;
 }
-
 .flyers {
-    width:800px;
+    width:80%;
     
     margin: 20px;
     margin: 0px;
     text-align: center;
-    font-family: "ostrich";  
+    font-family: "Open Sans Condensed" sans-serif;  
 }
-
 .flyers:hover {
     transform: scale(1.2);
     z-index: 10;
 }
-
-/*fonts*/
 .writing    {
     font-family: "juraL";
     color: black;
 }
-
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-    width: 50px;
-    font-size: 12px;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-
 #captionchunk{
     animation: fadein 3s;
     -moz-animation: fadein 3s; /* Firefox */
@@ -294,7 +259,6 @@ body{
         opacity: 1;
     }
 }
-/*pictures*/
 .everydayHeroIMG{
     width: 100%;
 }

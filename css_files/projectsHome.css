@@ -1,32 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
 html{
     height: 100%;
 }
 
 .test{
+    margin-top: 10px;
     width: 3500px;
     overflow-y: scroll;
     display: inline-block;
     overflow-y: scroll;
     white-space: normal;
-
 }
 
 #projectsContainer {
-    width: 950px;
-    height: 460px;
+    width: 1000px;
+    height: 500px;
     display: inline-block;
     white-space: normal;
-    font-family: "ostrich";
+    font-family: "ostrich", 'Open Sans Condensed', sans-serif ;
     font-size: 20px;
+    margin-top: 20px;
 }
 .box{
     display: inline-block;
     float:left;
-    height:130px;
+    height:140px;
     width: 150px; 
     overflow-y: scroll;
     overflow-x: hidden;
-    background: green;
     overflow-x: hidden;
     overflow-y: scroll;
     margin-right: 5px;
@@ -62,10 +64,10 @@ h5{
 }
 p{
     color:black;
-    font-size: 10px;
+    font-size: 12px;
     margin-left: 10px;
     margin-right: 10px;
-    font-family: monospace;
+    font-family: 'Roboto', 'sans serif';
     font-stretch: expanded;
     margin-top: 2px;
     text-align: center; 
@@ -117,17 +119,18 @@ p{
 .projects{
     height: 185px;
     width:670px;
-    margin-top:7px;
+    
    
     white-space: nowrap;
     overflow-x: scroll;
     overflow-y: hidden;
-    text-align: left;
+    text-align: right;
     color: blue;
+    margin: 0;
     display: inline-block;
- 
-    font-family: "leddis";
-    font-size: 20px; 
+    color: #4d0019;
+    font-family: "Open Sans Condensed", 'Sans-Serif';
+    font-size: 28px; 
 }
 
 .skills{
@@ -136,7 +139,7 @@ p{
     height: 500px;
     width:280px;
     margin-top: 15px;
-    font-family: "ostrich";
+    font-family: "ostrich", 'Open Sans Condensed', sans-serif;
     margin-left: 20px;
     font-weight: 400;
     
@@ -144,19 +147,19 @@ p{
 }
 
 .internship1{
-    height: 120px;
-    width:670px;
-    margin-left: 20px;
+    height: 70px;
+    width:620px;
+    margin-left: 25px;
     margin-top: 18px;
     white-space: nowrap;
     overflow-x: hidden;
     overflow-y: hidden;
-    text-align: left;
-    color: pink;
+    text-align: center;
+    color: #4d0019;
 
     display: inline-block;
-    font-family: "leddis";
-    font-size: 20px;
+    font-family: "Open Sans Condensed", 'Sans Serif';
+    font-size: 28px;
 
 
 }
@@ -168,9 +171,7 @@ p{
     width: 300px;
     background: #9F7776;
     margin-top: 27px;
-     
-    
-    font-family: "ostrich";
+    font-family:  'Open Sans Condensed', sans-serif;
     color: white;
     font-size: 30px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);

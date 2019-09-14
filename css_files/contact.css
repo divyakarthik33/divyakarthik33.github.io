@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
 html{
     height: 100%;
 }
@@ -6,30 +8,39 @@ a:checked{
     text-decoration: none;
 }
 
+a:visited {
+    text-decoration: none;
+}
+a:unvisited {
+    text-decoration: none;
+}
 
 .address {
-    float:right;
-    width:500px;
+    top:0;
+    float:left;
+    width:100%;
+    
     display: inline-block;
     white-space: nowrap;  
     margin-right: 100px;
     margin-top: 135px;
-    font-family: "ostrich";
+    padding: 30px;
+    font-family: "ostrichr", 'Open Sans Condensed', sans-serif;
 }
 
 .FORM{
-    margin-left: 150px;
+    margin-left: 10%;
     display: inline-block;
     float: left;
-    width: 300px;
+    width: 40%;
     white-space: nowrap;
     margin-top: 30px;
-     font-family: "ostrich";
+    font-family: "ostrichr", 'Open Sans Condensed', sans-serif;
 
 }
 
 .links{
-    font-family: ostrich;
+    font-family: 'ostrichr', 'Open Sans Condensed', sans-serif;
     font-weight: 600;
     font-size: 30px;
     color: lightcoral;
@@ -39,6 +50,7 @@ a:checked{
     font-family: jura;
     font-size:20px;
     font-weight: 400;
+     color: lightcoral;
 }
 
 
@@ -46,26 +58,24 @@ a:checked{
 #email {
     display: inline;
     height: 20px;
-    width: 400px;
+    width: 30%;
     background-color: antiquewhite;
 
 }
 
 #message {
-    width:400px;
+    width:30%;
     height: 150px;
     background-color:  antiquewhite;  
 }
 
 #send {
-    width: 405px;
+    width: 15%;
     height: 25px;
-    font-family: "ostrich";
+    font-family: "ostrichr", 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     text-align: center;
     margin: 0 auto;
-   
- 
 }
 
 

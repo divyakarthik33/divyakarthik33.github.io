@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:100&display=swap');
 .sonny_progressbar {
     width: 230px;
 	margin-bottom: 5px;
+    height: 40px;
 }
 .sonny_progressbar p.title {
-	font-family: "ostrich";
+	font-family:  'Open Sans Condensed', sans-serif;
+    color: #4d0019;
     font-weight: bolder;
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 10px;
-	margin: 0;
+	margin: 5px;
 	padding: 5px 0;
 }
 .sonny_progressbar .bar-container {
