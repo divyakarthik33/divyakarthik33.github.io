@@ -73,7 +73,8 @@ body{
     text-align: center;
     
 }
-
+.scale-in-center{-webkit-animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both}
+@-webkit-keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}
 .tab span{ 
   position: absolute;
   top: -30px;
@@ -84,8 +85,8 @@ body{
     width: 23%;
     display: inline-block;
     float: left;
-   
-    margin-right: 35px;
+   margin: 20px;
+    overflow: hidden;
 }
 .skillbar {
 	position:relative;
@@ -148,10 +149,10 @@ body{
     
 }
 #extras {
-    margin-top: 30px;
+    margin: 30px;
     float:left;
-    margin-right: 25px;
-    width: 40%;
+    width: 65%;
+    overflow: hidden;
     
 
     display: inline-block;

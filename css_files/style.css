@@ -26,8 +26,6 @@ body {
 
 
 
-
-
 ::-webkit-scrollbar {
     width: 6px;
 }
@@ -87,13 +85,13 @@ white-space: nowrap;
 .tooltip {
   position: relative;
   display: inline-block;
-    width: 120px;
+    width: 125px;
 }
 
 .tooltip .tooltiptext {
   visibility: hidden;
-    font-size: 12px;
-  width: 120px;
+font-size: 12px;
+  width: 125px;
   background-color: black;
   color: #fff;
   text-align: center;
