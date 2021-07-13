@@ -3,12 +3,14 @@
 <html lang="en-US">
 <head>
     <link rel="stylesheet" href="suss.css"> 
+    <meta name="viewport" content="width=1024">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
-    
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     
 </head>
     
 <body>
+    
     <div style="height: 20px;"></div>
     <div id="back" style="width:40%;background-color:#50394c; display: block;height:600px;float:left;"></div>
     <div id = "back" style="width:60%;background-color: white;display:block;height:600px;float:left;"></div>    
@@ -35,8 +37,8 @@
             &#127891; &nbsp; UC Davis' 21 Computer Engineering
             <br>
             
-            <button id="menu">Experience</button>
-            <button id="menu">Projects</button>
+            <button id="menu"><a style="text-decoration: none;color: inherit;" href="#work">Experience</a></button>
+            <button id="menu"><a style="text-decoration: none;color: inherit;" href="#projects">Projects</a></button>
             <button id="menu"><a style="text-decoration: none;color: inherit;"href="Extras/Resume.pdf" target="_blank">Resume</a></button>
             <br>
         </div>
@@ -50,4 +52,219 @@
 
     </div>
     
+    
+    <div class="page2" id="work" style="width: 30%; margin-left: 10%;">
+        <h4 style="font-family: 'Open Sans Condensed', sans-serif;color: #50394c;"><b>Internships</b></h4><br>
+        <div class="w3-container" id="Poshmark">
+
+              <button onclick="document.getElementById('id02').style.display='block'" class="w3-button"  style="width:80%;text-align: center;"> <img src="POSH/plogo.jpg" style="width:60%;"> <br> <u>Software Engineering Intern</u> <br> DevOps and SRE Team </button>
+
+              <div id="id02" class="w3-modal" >
+                <div class="w3-modal-content" >
+                  <div class="w3-container">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+
+                    <div id="POSHInternship" class="tabcontent">
+
+    
+                        
+                        <div style="width:50%; float:left;padding: 20px;text-align: left;">
+                            
+                        
+                        <img src = POSH/plogo.jpg style="width: 40%;" >
+                        <p style="font-size: 14px;"><a href="https://www.poshmark.com">Poshmark</a> is the leading social commerce platform for retailers and shoppers.</p>
+                        
+                            
+                        <h5>Role</h5>
+                        <p style="font-size: 14px;">
+                            As the sole intern of the DevOps and SRE team, I contributed to projects that automated Poshmark Functions.
+                        </p>
+                            
+                            
+                        <h5>Tools</h5>
+                        
+                            <ul style="font-size: 14px;text-align: left;">
+                            <li><B>AWS:</B> EC2,S3,Lambda, Target Groups, Security Groups, Route53, Load Balancers</li>
+                            <li><B>Languages:</B> Python, Bash, and some HCL (Terraform).</li>
+                            <li>Terraform</li>
+                            <li>Ansible Playbook</li>
+                            <li>Jenkins</li>
+                            <li>Capistrano.</li> 
+                            </ul>
+                        
+                        </div>
+
+                        <div style="width:50%; float:left;padding: 10px;text-align: left;font-size: 14px;">
+                            <h5>Projects</h5>
+                            <h6>Copyright Image Deletion</h6><p >Implemented a Jenkins interface for handling copyright image complaints. Deletes images and clears cache on AWS backend based on copyright image URLs entered by compliance team weekly.</p>
+                            <h6>Terraboard for Terraform</h6><p>Implemented Terraboard, a version visualization dashboard, for Terraform. Utilized AWS (EC2, Load Balancer, Route 53, Target Groups), Terraform, Ansible Playbook, and Vouch.</p>
+                            <h6>Dynamic Inventory for Capistrano</h6><p>Developed a dynamic inventory for Capistrano using a python script. On demand, generates a Capistrano Ruby file of actively running instances and associated attributes.</p>
+                        </div>
+                        
+                        <div style="width:100%;  float:left;padding: 20px;">
+                            
+
+                            <img class="zoom1" src="POSH/poshp1.png" style="width:30%;">
+                           
+                            
+
+                            <img class="zoom1" src="POSH/poshp3.png" style="width:30%;">
+                            
+                            <img class="zoom1" src="POSH/poshp2.png" style="width:30%;">
+                        </div>
+
+                        
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><br>
+        <div class="w3-container" id="RobertHalf" >
+
+              <button onclick="document.getElementById('id01').style.display='block'" class="w3-button" style="width:80%;" ><img src="RH/rlogo.jpg" style="width:65%;"><br><u>Software Engineering Intern</u><br> Cloud Excellence Team</button>
+
+              <div id="id01" class="w3-modal" >
+                <div class="w3-modal-content" >
+                  <div class="w3-container">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+
+                    <div id="RHInternship" class="tabcontent">
+
+
+
+                    <div style="float: right; display: inline-block; padding: 20px; width:50%; font-size: 14px;text-align: left;">
+
+
+
+                        <h5>Project</h5>
+                        <p >
+                            rhAid: A smart product that centralizes tickets from all of Robert Half's IT ticket platforms (ServiceNow, JIRA, and AWS Support) and pings the user with ML generated (topic modeling) suggestions of similar tickets if they post an inquiry.
+                        </p>
+                        
+                        <h5>Project Contribution</h5>
+                            <ul >
+                              <li>Retrieving Support Tickets using JIRA and ServiceNow APIs.</li>
+                              <li>Extracting Key Phrases from each Support Ticket</li>
+                              <li>Researching solutions for ML processing of tickets.</li>
+                              <li>Using AWS Comprehend for grouping tickets with extracted keywords.</li>
+                              <li>Backend AWS Infrastructure for new ticket lifecycle (Receiving, Parsing, Grouping of ticket, Finding Results, Sending Email to User).</li>
+                            </ul>
+
+
+
+                        <h5>Tools Used</h5>
+                        <ul>
+                            <li><B>AWS:</B> CloudLogs, CloudFront, CloudWatch, Comprehend, DynamoDB, Lambda, S3, Sagemaker, SES, SNS, SQS</li>
+                            <li><B>Programming Languages: </B> Python, HTML, CSS, JSON </li>
+                            <li><B>Libraries:</B> boto3, regEx, NLTK, datetime, JIRA/ServiceNow APIs </li>
+                        </ul>
+                    </div>
+                    <div id = "ppt" style="padding: 20px; width: 50%; height:300px;display: inline-block;text-align: left;">
+                        <img src="RH/rlogo.jpg" style="float:left;width: 50%;">
+                        <p style="font-size: 14px; width:100%;float: left;text-align: left;"><a href="https://www.roberthalf.com">Robert Half</a> is the  world's first and largest accounting and finance staffing firm, with over 345 locations worldwide.</p>
+                        <h5>Role</h5>
+                        <p style="font-size: 14px;text-align: left;">As one of three interns on the Cloud Excellence team, completed a project for RH Internal use using Agile methodologies.</p>
+                        <h5>Brown Bag Presentation</h5>
+                        <iframe src="https://onedrive.live.com/embed?resid=11139927EEB29056%2127838&amp;authkey=%21AI8GptTfyA0VvoU&amp;em=2&amp;wdAr=1.7777777777777777" width="100%"; height="100%" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+                    </div>
+
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div> <br>
+        <div class="w3-container" id="MDout" >
+
+              <button onclick="document.getElementById('id03').style.display='block'" class="w3-button"  style=" width:80%; " ><img src="mdout/mlogo.png" style="width: 60%;"><br><u>Front-End Development Intern</u> <br> Marketing Team</button>
+
+              <div id="id03" class="w3-modal" >
+                <div class="w3-modal-content" >
+                  <div class="w3-container">
+                    <span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+
+                    <div id="MDOUTInternship" class="tabcontent">
+                         <h6 style = "color: darkslategrey; font-family:  'Open Sans Condensed', sans-serif; font-size: 26px;  margin:0px; text-align: center; margin: 20px;">MDout Internship</h6>
+                        <p style = "font-size: 13px; padding: 20px;">
+                            Designed Wireframes via HTML/CSS for Company's Wesbite. With a wide ranged target audience of patients, investors, and clinics; developed concepts based on simplicity and ease-of-use. Designed flyers for advertising.
+                        </p>
+                        <br>
+                        <div style="width:100%;">
+
+                        <img  class="zoom" src="/mdout/Layout1 - Videos.png" style="width:50%;float: left;" >
+                        <img  class="zoom" src = "/mdout/Layout1-%20Tools.png" style="width:50%;float: left;">
+                        <img  class="zoom" src = "/mdout/Layout1-%20Topics.jpg" style="width:50%;float: left;">
+                        <img  class="zoom" src = "/mdout/Layout1%20-%20TopicsOpened.png" style="width:50%;float: left;">
+
+                        <img  class="zoom" src = "/mdout/Layout1-%20About%20Us.png" style="width:50%;float: left;">
+                        <img  class="zoom" src = "/mdout/Layout%201%20-%20Home%20Page.png" style="width:50%;float: left;">
+                        <img  class="zoom" src = "/mdout/Layout1%20-%20HomePage2.png" style="width:50%;float: left;">
+                        <img  class="zoom" src = "/mdout/Layout1-%20Dashboard.png" style="width:50%;float: left;">
+
+
+                        <img  class="zoom" src = "/mdout/PatientsInside%20(1).png" style="width:50%;float: left;">
+                    
+                        <img  class="zoom" src = "/mdout/ClinicsInside-_1_.png" style="width:50%;float: left;">
+                       
+                        <img  class="zoom" src = "/mdout/ClinicsOutside_1.png" style="width:50%;float: left;">
+                       
+                        <img  class="zoom" src = "/mdout/InvestorsOutside-_1_.png" style="width:50%;float: left;">
+                       
+                        <img  class="zoom" src = "/mdout/PatientsOutside.png" style="width:50%;float: left;">
+                       
+                        <img  class="zoom" src = "/mdout/InvestorsInside.png" style="width:50%;float: left;">
    
+                        </div>
+
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> <br>
+        
+    </div> 
+    
+    <div class="page2" id="projects" style="width: 20%;margin-right: 80px;" >
+            <h4 style="font-family: 'Open Sans Condensed', sans-serif; color: #50394c;"><b>Projects</b></h4><br>
+            <p>
+                <a href="https://divyakarthik33.github.io/aggieplanter/"><img src="Extras/aggieplanterthumb.PNG" style="border-color: black; border-style: solid; width: 250px; height: 125px;">
+                Aggie Planter</a>
+        
+            </p>
+            <p>
+              <a href="https://divyakarthik33.github.io/SumReviews/"><img src="Extras/sumreviewsthumb.PNG" style="border-color: black; border-style: solid; width: 250px; height: 125px;">
+                SumReviews</a>
+        </p>
+    </div>
+    
+    <div class="page2" id="misc" style="width: 20%;" >
+            <h4 style="font-family: 'Open Sans Condensed', sans-serif;color: #50394c;"><b>Community / Awards</b></h4><br>
+            <p style="font-size: 14px;">Davis Women in Computer Science <br>Engineering Undergraduate Office Peer Advisor <br>Davis Public Library Booksale <br> PaTech: Promoting Ageless Technology <br>AVHS Bollywood Dance <br> Technology Student Association <br>Future Business Leaders of America <br></p>
+            
+        
+            <br>
+            <p style="font-size: 14px;"><a href="https://www.buildingindustryconferenceboard.org/event/67th-annual-bicb-awards-banquet/"> BICB Scholarship</a><br> <a href="https://cfmasv.com/scholarships/2017-scholarship-winners"> CFMA Scholarship</a><br><a href="https://amadorvalleyscholarshipsinc.org/past-recipients/"> Amador Valley High School (Class of 2017) Scholarship</a> <br> <a class="image-link" href="RH/mobileAppDemo_Winner.PNG"> Robert Half Mobile App Contest</a></p>
+            
+    </div>
+    
+    
+   
+  
+</body>
+    
+<script>
+ $(document).ready(function() {
+  $('.image-link').each(function() {
+      var currentImage = $(this);
+      currentImage.wrap("<a class='image-link' href='" + currentImage.attr("src") + "'</a>");
+  });
+   
+});    
+</script>
+    
+    
